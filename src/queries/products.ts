@@ -1,6 +1,6 @@
 import axios, { AxiosError } from "axios";
 import API_PATHS from "~/constants/apiPaths";
-import {AvailableProduct, Product} from "~/models/Product";
+import {AvailableProduct} from "~/models/Product";
 import { useQuery, useQueryClient, useMutation } from "react-query";
 import React from "react";
 
